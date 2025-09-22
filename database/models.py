@@ -1,6 +1,6 @@
-from peewee import Model, CharField, IntegerField, BigIntegerField, DecimalField, ForeignKeyField, DateTimeField
+from peewee import Model, CharField, BigIntegerField, DecimalField, ForeignKeyField, DateTimeField
 import hashlib
-from database import db
+from .connection import db
 
 
 class BaseModel(Model):
