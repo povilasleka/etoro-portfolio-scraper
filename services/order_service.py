@@ -1,5 +1,5 @@
 from typing import List, Tuple
-from models import Portfolio, Position
+from database.models import Portfolio, Position
 
 
 class OrderService:
